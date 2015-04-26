@@ -4,8 +4,8 @@ library(dplyr)
 #library(plyr)
 
 
-getwd()
-setwd("E:\\DataScience\\Coursera-DataScience\\Getting and Cleaning Data\\RCoding\\CourseProjectFinal")
+#getwd()
+#setwd("E:\\DataScience\\Coursera-DataScience\\Getting and Cleaning Data\\RCoding\\CourseProjectFinal")
 #dir.create("Files")
 
 # Downloading the data
@@ -76,9 +76,9 @@ Index <- grepl(pattern, variableSet$feature_name)
 #features[Index,]
 # Recall the new dataset is named as dataset
 new.dataset <- dataset[,Index]
-dim(new.dataset)
+#dim(new.dataset)
 
-names(new.dataset)
+#names(new.dataset)
 
 
 ##### Done P2########
